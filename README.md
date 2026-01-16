@@ -46,6 +46,10 @@
 - Nyissuk meg a PhPStormot és egy üres projektbe, ahogy van a legfelső fő mappában    húzzunk be minden fájlt.
 - Az index.php a főoldal majd ezt kell böngészőben elindítani
 - Ahhoz hogy működjön az oldal kell XAMPP is ami letölthető: [XAMPP]        (https://www.apachefriends.org/hu/index.html) oldalról
-- XAMPPON belül az Apache és MySQL-nél nyomjuk meg a start- gombokat
+- XAMPPON belül az Apache és MySQL-nél nyomjuk meg a start gombokat
 - Fontos, hogy a MySQL port egyezzen azzal ami a connect.php-ban van az alap van beállítva (3306) ha nem az akkor írjuk át arra amit alapból a XAMPP ad itt:`$PORT = 3306;`
+- MySQL admin gombra nyomjunk rá ami a phpMyAdmin oldalra vezet minket
+- Itt a bal oldalon nyomjunk rá arra, hogy új és hozzunk létre egy "webterv" nevű adatbázist ami kezdetben üres (Csak írjuk be adatbázis nevét és létrehozás)
+- Ezután lépjünk bele az adatbázisunkba amit bal oldalól láthatunk, és fenti pontok között válasszuk ki az importálás fájlt
+- Töltsük fel a zip-fájlban mellékelt sql-fájlt, és importáljuk nem kell változtatni semmit, és ezzel fellett töltve az adatbázis is.
 - Utolsó lépésként pedig a zip-ben található fájlokat a XAMPP telepítési helyén belül a XAMPP/htdocs mappába is bekell húzni az összes fájlt.
